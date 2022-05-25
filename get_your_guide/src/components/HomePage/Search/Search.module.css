@@ -1,0 +1,54 @@
+.bgImg {
+    background-image: url("https://i.ibb.co/XsXSdzQ/EASTER22-BRA-mark-C-DE-HP-1600x500-154.jpg");
+    height: 500px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    width: 35%;
+    height: 50px;
+    border-radius: 35px;
+    font-size: 1.2rem;
+    padding: 0px 30px 0px 30px;
+    margin-top: 20px;
+    border: none;
+}
+
+.search input:active {
+    border: none;
+}
+
+.search input::placeholder {
+    color: black;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.search button {
+    width: 8%;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 35px;
+    border: none;
+    background-color: #0071eb;
+    margin-top: 22px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.bgImgText {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: left;
+    margin: 3% 0 0 9%;
+}
+
+.borderLine {
+    background: #ff5533;
+    height: 7px;
+    margin-top: -3px;
+}

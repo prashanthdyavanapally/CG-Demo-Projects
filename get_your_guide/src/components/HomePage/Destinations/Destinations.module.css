@@ -1,0 +1,157 @@
+.mainContainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+.destinationsContainer h1 {
+    text-align: start;
+    font-size: 2.3rem;
+}
+.destinations div {
+    width: 15%;
+    height: 200px;
+    border-radius: 8px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    display: block;
+}
+
+.destinations div:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.destinations p {
+    text-align: start;
+    margin: 160px 0px 0 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+/* .destinations div:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+} */
+
+.destinations div:nth-child(1) {
+    background-image: url("https://cdn.getyourguide.com/img/location/5ffeb4d289b13.jpeg/86.jpg");
+    background-size: 100% 100%;
+}
+.destinations div:nth-child(2) {
+    background-image: url("https://cdn.getyourguide.com/img/location/5b2133119d90a.jpeg/86.jpg");
+    background-size: 100% 100%;
+}
+.destinations div:nth-child(3) {
+    background-image: url("https://cdn.getyourguide.com/img/location/ff75fe2d863349ff.jpeg/86.jpg");
+    background-size: 100% 100%;
+}
+.destinations div:nth-child(4) {
+    background-image: url("https://cdn.getyourguide.com/img/location/5ffeb0af63a25.jpeg/86.jpg");
+    background-size: 100% 100%;
+}
+.destinations div:nth-child(5) {
+    background-image: url("https://cdn.getyourguide.com/img/location/5ffeb327cba00.jpeg/86.jpg");
+    background-size: 100% 100%;
+}
+.destinations div:nth-child(6) {
+    background-image: url("https://cdn.getyourguide.com/img/location/5ffeb392eb81e.jpeg/86.jpg");
+    background-size: 100% 100%;
+}
+.authenticExp {
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+    /* margin-left: 10%; */
+    margin-top: 50px;
+}
+
+.authenticExp img {
+    float: left;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+.h2 {
+    float: right;
+    line-height: 1.4;
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+}
+.h2 h2 {
+    line-height: 0;
+    font-size: 22px;
+}
+.topHydSites h1 {
+    text-align: start;
+}
+.hydSites {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.hydSites div {
+    height: 210px;
+    width: 590px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hydSites div:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.hydSites div:nth-child(1) {
+    background-image: url("https://cdn.getyourguide.com/img/location/5d7c99c38c443-small.jpeg/70.webp");
+    background-size: 100% 200%;
+    background-position: center;
+}
+.hydSites div:nth-child(2) {
+    background-image: url("https://cdn.getyourguide.com/img/location/5d7d309c50975-small.jpeg/70.webp");
+    background-size: 100% 200%;
+    background-position: center;
+}
+
+.hydSites div {
+    text-align: start;
+}
+
+.hydSites div h2 {
+    background-color: black;
+    color: white;
+    float: left;
+    height: 30px;
+    padding: 5px;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.nextTrip h1{
+    text-align: start;
+    margin: 50px 0 30px 0 ;
+}
+.nextTripLocation{
+    display: flex;
+    justify-content: space-between;
+}
+.nextTripLocation div{
+    border: 1px solid rgb(189, 189, 189);
+    border-radius:10px;
+    height:260px
+}
+.nextTripLocation img{
+    width:380px;
+    height: 200px;
+}
+.nextTripLocation p{
+    text-align: start;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

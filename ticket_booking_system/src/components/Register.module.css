@@ -1,0 +1,51 @@
+.signupinput {
+    width: 90%;
+    height: 35px;
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(109, 109, 109);
+}
+.app {
+    width: 40%;
+    border: 1px solid rgb(95, 95, 95);
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+/* .container{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 70%;
+    padding: 5px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(170, 170, 170);
+} */
+.ptag{
+    margin-left: 22%;
+    color: rgb(112, 112, 112);
+}
+
+.login{
+border:none;
+background-color:white;
+color: black;
+font-size: 18px;
+font-weight: bold;
+}
+h1{
+    margin-left: 35%;
+}
+.signup{
+    background-color:black;
+    width: 50%;
+    font-size: 16px;
+    color: white;
+    padding: 11px 8px 11px 8px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+

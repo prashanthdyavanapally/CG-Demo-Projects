@@ -1,0 +1,52 @@
+.fullname {
+    display: grid;
+    grid-template-columns: repeat(2, 38%);
+}
+.formhead{
+    padding-left: 20px;
+}
+.app {
+    width: 40%;
+    border: 1px solid rgb(95, 95, 95);
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.header{
+    font-weight: 500 !important;
+}
+.submit{
+    margin-left: 40%;
+    background-color: rgb(33, 170, 33);
+    color: white;
+    width: 130px;
+    padding: 8px 10px 25px 10px !important;
+}
+label {
+    font-size: 14px !important;
+    color: rgb(124, 124, 124)
+}
+.ampm {
+    width: 50px;
+}
+span {
+    color: red;
+}
+input,
+.input {
+    width: 210px;
+    height: 30px;
+}
+.large {
+    width: 83%;
+    height: 100px;
+}
+.number{
+    padding-left: 70px;
+    width: 125px;
+}
+
+p{
+    font-weight: bold;
+    
+}

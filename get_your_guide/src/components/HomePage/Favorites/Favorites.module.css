@@ -1,0 +1,69 @@
+.favoriteCard {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.image {
+    overflow: hidden;
+}
+.favoriteCard img {
+    width: 280px;
+    transition: all 0.3 ease;
+    border-radius: 3px;
+}
+.favoriteCard p {
+    padding: 0 8px 0 8px;
+}
+
+.favoriteCard:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+.locationDetails p {
+    margin: 2px;
+}
+.priceDetails {
+    margin-top: 20px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.price span {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.rating {
+    font-weight: 600;
+}
+
+.priceDetails p {
+    margin: 2px;
+}
+
+.favoritesContainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.favoritesContainer h1 {
+    text-align: start;
+    font-size: 2.3rem;
+}
+.location {
+    font-weight: bold;
+}
+.location ~ p {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.rating {
+    font-size: 0.9rem;
+}
